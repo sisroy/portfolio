@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Portfolio</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+   
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js"></script>
+    <style>
+        .projects {
+            padding: 20px;
+        }
+
+        .project-card {
+            background-color: #020202; 
+            border: 1px solid #ddd; 
+            border-radius: 5px; 
+            padding: 15px; 
+            margin-bottom: 20px;
+        }
+
+        .project-card h3 {
+            margin-bottom: 10px; 
+        }
+
+        .project-link {
+            color: #007bff; 
+            text-decoration: none; 
+        }
+
+        .project-link:hover {
+            text-decoration: underline; 
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <!-- Center the navbar with auto margins -->
+        <a class="navbar-brand mx-auto" href="#">My Portfolio</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mx-auto"> <!-- Centered content -->
+                <li class="nav-item">
+                    <a class="nav-link" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#projects">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#skills">Skills</a>
+                </li>
+                
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="animate-fade-in container">
+        <div class="row">
+            
+            <div class="col-md-6">
+                <h1 class="text-fade-in">Welcome to My Portfolio</h1>
+                <p class="text-typewriter">Hello, I'm Siddhartha Roy,
+                    <br>a Web Developer & Pw Campus Ambassador .
+                    <br>From Patna , Bihar , India.
+                </p>
+            </div>
+            
+            <div class="col-md-6 text-right">
+                <!-- Applying the img-fluid class for responsiveness -->
+                <img src="profile.jpg" alt="Your Name" class="img-fluid right-aligned-img">
+            </div>
+            <div class="container my-5">
+                <div class="contact">
+                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=roy897553@gmail.com" class="btn btn-primary" target="_blank">Contact Me</a> <!-- Link to open email -->
+                </div>
+            </div>
+            <div class="social-media-icons">
+                <a href="https://www.linkedin.com/in/siddhartha-roysr335?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" class="mr-3">
+                    <i class="fab fa-linkedin fa-2x"></i> <!-- LinkedIn icon -->
+                </a>
+                <a href="https://github.com/sisroy" target="_blank" class="mr-3">
+                    <i class="fab fa-github fa-2x"></i> <!-- GitHub icon -->
+                </a>
+                <a href="https://discord.gg/hrNXrk6E" target="_blank">
+                    <i class="fab fa-discord fa-2x"></i> <!-- discord icon -->
+                </a>
+                <a href="https://x.com/bytesid33?t=qWkiLxD1P_7169tdt3dh3Q&s=09" target="_blank" class="mr-3">
+                    <i class="fab fa-twitter fa-2x"></i> <!-- Twitter icon -->
+                </a>
+                <a href="https://www.instagram.com/siddhartha_roy_official?igsh=cGNhNHFqam04OXVm" target="_blank">
+                    <i class="fab fa-instagram fa-2x"></i> <!-- Instagram icon -->
+                </a>
+                
+               
+        </div>
+    </section>
+
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hi, I'm Siddhartha Roy, a BCA student at Impact College. I specialize in full-stack web development and have a keen interest in data science. Currently, I'm working on a startup designed to help students who migrate to other cities for their studies.
+
+            I'm passionate about creating solutions that solve real-world problems and enjoy collaborating with others. I look forward to connecting and exploring opportunities together.
+            </p>
+    </section>
+    
+    <h1>
+         Few Highlights.
+    </h1>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card image-card">
+                        <img src="IMG-20240226-WA0013.jpg" class="card-img-top" alt="Image 1">
+                        
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card image-card">
+                        <img src="IMG-20240414-WA0007.jpg" class="card-img-top" alt="Image 2">
+                        
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card image-card">
+                        <img src="IMG-20240502-WA0013.jpg" class="card-img-top" alt="Image 3">
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card image-card">
+                        <img src="IMG-20240502-WA0010.jpg" class="card-img-top" alt="Image 4">
+                        
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card image-card">
+                        <img src="IMG-20240502-WA0011.jpg" class="card-img-top" alt="Image 5">
+                        
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card image-card">
+                        <img src="IMG-20240502-WA0012.jpg" class="card-img-top" alt="Image 6">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+      
+    <section id="github-activity" class="container my-5 text-center">
+        <h2>My GitHub Activity</h2>
+        <!-- GitHub profile overview badge -->
+        <a href="https://github.com/sisroy" target="_blank">
+            <img src="https://ghchart.rshah.org/sisroy" alt="GitHub Stats" />
+        </a>
+    </section>
+
+    
+
+
+    <!-- Projects Section -->
+    <h1>Projects</h1>
+    <div class="projects">
+        <!-- Tourism Website Project -->
+        <div class="project-card">
+            <h3>Tourism Website</h3>
+            <p>This project involves creating a website focused on to0urism. It showcases various destinations, tours, and travel experiences. The website is designed to attract visitors and provide them with valuable information for planning their trips.</p>
+            <a href="https://sisroy.github.io/Tourism2/" class="project-link">View Project</a> <!-- Replace with the actual link -->
+        </div>
+    <div class="project-card">
+        <h3>Fintech App for Teens</h3>
+        <p>This project is a fintech website designed to help teenagers learn about saving and investing. This includes interactive features to engage users and educate them about personal finance in a fun and practical way.</p>
+        <a href="https://sisroy.github.io/fintech/" class="project-link">View Project</a> <!-- Replace with the actual link -->
+    </div>
+</div>
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>html</li>
+            <li>css</li>
+            <li>javascript</li>
+            <li>Python</li>
+            <li>Teamwork and Collaboration</li>
+            <li>Adaptability and Flexibility</li>
+        </ul>
+    </section>
+
+  
+
+    <!-- Footer -->
+    <footer>
+        <p>Connect with me on <a href="https://wa.me/+919508974766">Whatsapp</a></p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>
